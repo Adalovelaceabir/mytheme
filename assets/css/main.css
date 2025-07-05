@@ -1,0 +1,24 @@
+/* WordPress-Specific Styles */
+.alignwide {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignfull {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+
+.wp-block-image img {
+    height: auto;
+    max-width: 100%;
+}
+
+/* Add all your existing styles here */
+.site-header {
+    /* Your header styles */
+}
+
+/* etc... */
