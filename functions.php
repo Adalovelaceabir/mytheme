@@ -52,3 +52,9 @@ function yourtheme_widgets_init() {
     ));
 }
 add_action('widgets_init', 'yourtheme_widgets_init');
+
+// Custom template tags
+require get_template_directory() . '/inc/template-tags.php';
+
+// Customizer additions
+require get_template_directory() . '/inc/customizer.php';
